@@ -2,7 +2,7 @@ import React, { useMemo, Suspense } from "react";
 import { Canvas, useLoader } from "@react-three/fiber";
 import { OrbitControls, GizmoHelper, GizmoViewport, Text, Billboard, Line } from "@react-three/drei";
 import { STLLoader } from "three/examples/jsm/loaders/STLLoader";
-import HamburgerMenu from "./components/HamburgerMenu"; 
+import HamburgerMenu from "./HamburgerMenu";
 import { useWebSocket } from "./context/WebSocketContext";
 
 const COLORS = { Y_GREEN: "#1b5e20", X_RED: "#b71c1c", Z_BLUE: "#0d47a1", GRID: "#888888" };
