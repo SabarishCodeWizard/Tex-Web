@@ -21,7 +21,7 @@ function AppContent() {
     const handleF5 = (e) => {
       if (e.key === 'F5' || (e.ctrlKey && (e.key === 'r' || e.key === 'R'))) {
         e.preventDefault(); 
-        setShowReloadWarning(true); 
+        setShowReloadWarning(true);   
       }
     };
     const handleBeforeUnload = (e) => { e.preventDefault(); e.returnValue = ""; };
