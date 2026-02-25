@@ -129,7 +129,7 @@ const RightPart = () => {
   const errorData = rs.error_pos_data || {};
   const etherData = rs.ether_cat_data || {};
   const variableData = rs.variable_data || {};
-  const mechData = rs.mech_data || {};
+//   const mechData = rs.mech_data || {};
   const diVal = rs.di_val || 0;
   const doVal = rs.do_val || 0;
 
